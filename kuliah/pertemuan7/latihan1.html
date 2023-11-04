@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pertemuan7 - Latihan1</title>
+    <style>
+        div {
+            width: 150px;
+            height: 150px;
+
+        }
+        .kotak1 {
+            position: relative;
+            background-color: salmon;
+            border-radius: 50% 50% 50% 0%;
+            margin: 50px auto;
+        }
+        .kotak2 {
+            position: absolute;
+            background-color: salmon;
+            border-radius: 50% 50% 0% 50%;
+            margin-top: -200px;
+            margin-left: 61px;
+        }
+        .kotak3 {
+            position: absolute;
+            background-color: salmon;
+            border-radius: 0% 50% 0% 350%;
+            margin-top: -120px;
+            margin-left: 61px;
+        }
+        .kotak4 {
+            position: absolute;
+            background-color: salmon;
+            border-radius: 0% 0% 100% 0%;
+            margin-top: -120px;
+            margin-left: 210px;
+        }
+        .kotak5 {
+            background-color: lightblue;
+            /* box-shadow: <x-offset> <y-offset> <blur> [size] <color>; */
+            box-shadow: 0px 0px 0px 10px black, 0px 0px 0px 20px yellow, 0px 0px 0px 30px red;
+            transition: 3s;
+        }
+        .kotak5:hover {
+            border-top-left-radius: 75px ;
+            border-top-right-radius: 75px ;
+            border-bottom-left-radius: 75px ;
+            border-bottom-right-radius: 75px ;
+            transform: rotate(360deg) scale(1);
+            margin-left: 580px ;
+        }
+    </style>
+</head>
+<body>
+    <div class="kotak1"></div>
+    <div class="kotak2"></div>
+    <div class="kotak3"></div>
+    <div class="kotak4"></div>
+    <div class="kotak5"></div>
+</body>
+</html>

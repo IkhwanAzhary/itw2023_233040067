@@ -132,7 +132,7 @@ table {
 body {
   font: 10px/20px arial,sans-serif;
   background-color: #eaeaea;
-  background-image:url( img/background1.jpg) ;
+  background-image:url( img/bg1.png) ;
   color: #333;
 }
 .container {
@@ -164,11 +164,17 @@ body {
 }
 .hero {
   height: 380px;
-  background-image:url(img/komputer1.jpg) ;
+  background-image:url(img/mandalika1.jpg) ;
   background-size: cover;
-  background-position: 0 430px;
+  background-position: 0 px;
   border-top: 5px solid salmon;
   border-bottom: 5px solid skyblue;
+}
+.content .gambar {
+    height: 380px;
+    background-image: url(img/destinasiwisata.jpg);
+    background-size: cover;
+    background-position: 0 ;
 }
 .content {
   padding: 20px;
@@ -177,6 +183,10 @@ body {
 .content h2 {
   font-size: 28px;
   font-weight: bold;
+}
+.content h4 {
+    font-size: 15px;
+    font-weight: bold;
 }
 .content .penulis {
   font-size: 11px;
